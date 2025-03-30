@@ -1,0 +1,557 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2017" />
+<title>ZenZefi Troubleshooting</title>
+<link rel="StyleSheet" href="Function_description.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/widgets.min.css">
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "4";
+</script>
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1 style="font-family: 'Daimler CS', Calibri; text-align: justify;">5 
+ ZenZefi Troubleshooting</h1>
+<h2 style="text-align: justify; font-family: 'Daimler CS', Calibri; text-decoration: none; ">5.1 
+ <a name="ZenZefi_cannot_be_installed_or_started" style="font-family: 'Daimler CS', Calibri; 
+	 color: #000000; text-decoration: none; ">ZenZefi cannot be installed 
+ or started</a></h2>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; text-align: justify;">ZenZefi 
+ cannot be installed or started, or a warning is displayed when ZenZefi 
+ during startup<span lang="EN-GB" xml:lang="EN-GB" style="mso-ansi-language: EN-GB;">.</span></p>
+<p style="font-family: 'Daimler CS', Calibri; font-weight: bold; text-align: justify;">&#160;</p>
+<p style="font-weight: bold; mso-ansi-language: EN-GB; font-size: 11pt; 
+	 text-align: justify; font-family: 'Daimler CS', Calibri;"><span lang="EN-GB" 
+	 xml:lang="EN-GB">Solution 1: </span><a name="Validate_if_ZenZefi_is_running" 
+											 style="font-family: 'Daimler CS', Calibri; 
+											 color: #000000; text-decoration: none; ">Validate 
+ if ZenZefi is running</a> </p>
+<p style="font-family: 'Daimler CS', Calibri; mso-ansi-language: EN-GB; 
+	 font-size: 11pt; text-align: justify;">ZenZefi can be started as an 
+ installed Service or as a Java Application.</p>
+<ul style="list-style: disc; font-family: 'Daimler CS', Calibri;">
+	<li style="font-family: 'Daimler CS', Calibri;"><h4 style="font-family: 'Daimler CS', Calibri; 
+														 text-align: justify;">If 
+	 ZenZefi has been started as a Service<span style="font-weight: normal;"> 
+	 (see <a href="How_to_install_and_start_the_software.htm#ZenZefi_installation_as_a_Windows_service">2.1.1 
+	 ZenZefi installation as a Windows service</a>)</span></h4></li>
+</ul>
+<p style="margin-left: 36px; text-indent: -12px; font-family: 'Daimler CS', Calibri; 
+	 mso-ansi-language: EN-GB; font-size: 11pt; text-align: justify;">Press 
+ &lt;CTRL&gt;+&lt;SHIFT&gt;+&lt;ESC&gt; keys to open the Windows Task Manager 
+ and select the tab &quot;Services&quot;. Search for &quot;ZenZefi&quot; 
+ service and check if is running like in the picture below &#160;</p>
+<p style="mso-ansi-language: EN-GB; font-size: 11pt; margin-left: 36px; 
+	 font-family: 'Daimler CS', Calibri; text-indent: -12px;">&#160;&#160;<img src="Pictures/chapter5/windows_task_manager.png" alt="" style=" border:Outset 1px #c0c0c0; margin-left:1px; margin-right:1px; margin-top:1px; margin-bottom:1px; width:100%; max-width:445px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-ansi-language: EN-GB; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -12px; text-align: justify;"><i><span 
+	 style="font-family: 'Daimler CS', Calibri; mso-ansi-language: EN-GB; 
+	 font-size: 11pt;">&#160;&#160;</span><span style="font-size: 10pt; 
+												 font-family: 'Daimler CS', Calibri; 
+												 font-style: italic; text-indent: -12px;">Figure</span></i><span 
+	 style="font-size: 10pt; font-family: 'Daimler CS', Calibri; font-style: italic; 
+	 text-indent: -12px;"> 62<i>: Windows Task Manager - ZenZefi Installed 
+ as a Windows Service</i></span></p>
+<ul style="list-style: disc; font-family: 'Daimler CS', Calibri;">
+	<li style="font-family: 'Daimler CS', Calibri;"><h4 style="font-size: 11pt; 
+														 font-family: 'Daimler CS', Calibri; 
+														 text-align: justify;">If 
+	 ZenZefi has been started as a Java application<span style="font-weight: normal;"> 
+	 (see <a href="How_to_install_and_start_the_software.htm#Start_ZenZefi_manually_via_cmd.exe">2.3.1. 
+	 Start ZenZefi manually via cmd.exe</a>)</span></h4></li>
+</ul>
+<p style="text-indent: -24px; margin-left: 76px; font-family: 'Daimler CS', Calibri; 
+	 mso-ansi-language: EN-GB; font-size: 11pt; text-align: justify;">1. 
+ &#160;Display the command shell window where the Java application has 
+ been started.</p>
+<p style="text-indent: -24px; margin-left: 76px; mso-ansi-language: EN-GB; 
+	 font-size: 11pt; font-family: 'Daimler CS', Calibri; text-align: justify;">2. 
+ &#160;If the Java application has been started from the console do not 
+ close the command shell window. Closing the window will cause ZenZefi 
+ to shutdown</p>
+<p style="font-family: 'Daimler CS', Calibri; mso-ansi-language: EN-GB; 
+	 font-size: 11pt; margin-left: 40px; text-align: justify;"><img src="Pictures/chapter5/zenzefi_started_as_java_application.png" alt="" style=" border:Outset 1px #c0c0c0; margin-left:1px; margin-right:1px; margin-top:1px; margin-bottom:1px; width:100%; max-width:812px;" border="1" /></p>
+<p style="font-size: 10pt; font-family: 'Daimler CS', Calibri; font-style: italic; 
+	 margin-left: 40px; text-align: justify;"><i>Figure</i> 63<i>: ZenZefi 
+ Started as a Java Application</i></p>
+<ul style="list-style: disc; font-family: 'Daimler CS', Calibri;">
+	<li style="font-family: 'Daimler CS', Calibri;"><h4 style="font-family: 'Daimler CS', Calibri; 
+														 text-align: justify;">ZenZefi 
+	 LogFiles </h4></li>
+</ul>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; margin-left: 40px; 
+	 text-align: justify;">To get more Information if ZenZefi has stopped 
+ running unexpectedly the ZenZefi Logfiles can be evaluated</p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; text-indent: -24px; 
+	 margin-left: 76px; text-align: justify;">1. &#160;Navigate to C:\ProgramData\ZenZefi\ServiceLog</p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; text-indent: -24px; 
+	 margin-left: 76px; text-align: justify;">2. &#160;Open the file &quot;zenzefi.log&quot;</p>
+<p style="font-family: 'Daimler CS', Calibri; font-weight: bold; mso-ansi-language: EN-GB; 
+	 font-size: 11pt; text-align: justify;">&#160;</p>
+<p style="font-weight: bold; mso-ansi-language: EN-GB; font-size: 11pt; 
+	 text-align: justify; font-family: 'Daimler CS', Calibri; text-decoration: none; "><span 
+	 lang="EN-GB" xml:lang="EN-GB">Solution 2: </span><a name="Install_a_ZenZefi_compliant_Java_Version" 
+														 style="font-family: 'Daimler CS', Calibri; 
+														 color: #000000; 
+														 text-decoration: none; ">Install 
+ a ZenZefi compliant Java Version</a></p>
+<p style="font-family: 'Daimler CS', Calibri; text-align: justify;">The 
+ following error or similar is logged when ZenZefi does not start:</p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 10pt; font-weight: bold; 
+	 text-align: justify;">&quot;Error starting ApplicationContext. FoundError: 
+ javax/xml/bind/JAXBExceptionWARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 
+ (jar:file:/C:/Program%20Files/Zenzefi/zenzefi_E.jar!/BOOT-INF/lib/spring-core-4.3.11.RELEASE.jar!/) 
+ to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) 
+ WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1 
+ WARNING: Use --illegal-access=warn to enable warnings of further illegal 
+ reflective access operations&quot;</p>
+<p style="margin-left: 36px; text-indent: -24px; font-family: 'Daimler CS', Calibri; 
+	 font-size: 11pt; text-align: justify;">1. &#160;The currently installed 
+ Java version should be version</p>
+<p style="font-size: 11pt; margin-left: 36px; font-family: 'Daimler CS', Calibri; 
+	 text-indent: -12px;">&#160;&#160;<img src="Pictures/chapter5/java_version.png" alt="" style=" border:Outset 1px #c0c0c0; margin-left:1px; margin-right:1px; margin-top:1px; margin-bottom:1px; width:100%; max-width:380px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -12px;"><i>&#160;&#160;&#160;&#160;<span style="font-size: 10pt; 
+															 font-style: italic;">Figure</span></i><span 
+	 style="font-size: 10pt; font-style: italic;"> 64<i>: Java version</i></span><span 
+	 style="font-style: italic;"> </span></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px;">&#160;</p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px;">2. &#160;If a higher Java version (e.g. Version 
+ 11) is used, ZenZefi should start but not all version and provider combinations 
+ are tested. If you have a newer version please try e.g. with OpenJDK 8 
+ if this resolves the issue.</p>
+<p style="font-family: 'Daimler CS', Calibri; font-weight: bold; mso-ansi-language: EN-GB; 
+	 font-size: 11pt;">&#160;</p>
+<p style="font-weight: bold; mso-ansi-language: EN-GB; font-size: 11pt; 
+	 font-family: 'Daimler CS', Calibri;"><span lang="EN-GB" xml:lang="EN-GB">Solution 
+ 3: </span><span style="font-weight: bold; mso-ansi-language: EN-GB; font-size: 11pt;"><a 
+	 name="Delete_ZenZefi_Database" style="font-family: 'Daimler CS', Calibri; 
+	 color: #000000; text-decoration: none; ">Delete ZenZefi database</a></span></p>
+<p style="font-family: 'Daimler CS', Calibri;">ZenZefi does not start and 
+ in the Logfile the following entry can be found:</p>
+<p style="font-family: 'Daimler CS', Calibri;"><span style="font-size: 10pt; 
+													 font-weight: bold;">&quot;Caused 
+ by: org.h2.jdbc.JdbcSQLException: Datei fehlerhaft beim Lesen des Datensatzes: 
+ &quot;index not found 26&quot;. Mögliche Lösung: Recovery Werkzeug verwenden 
+ File corrupted while reading record: &quot;index not found 26&quot;. Possible 
+ solution: use the recovery tool [90030-196]&quot;</span> </p>
+<p style="font-family: 'Daimler CS', Calibri;">&#160;</p>
+<p style="font-family: 'Daimler CS', Calibri; font-weight: bold;">Solution:</p>
+<p style="font-family: 'Daimler CS', Calibri;">The ZenZefi database is 
+ corrupted and must be deleted. Follow the next steps:</p>
+<p style="font-family: 'Daimler CS', Calibri; margin-left: 36px; text-indent: -24px;">1. 
+ &#160;Delete all files from C:\ProgramData\ZenZefi\Data</p>
+<p style="font-family: 'Daimler CS', Calibri; margin-left: 36px; text-indent: -24px;">2. 
+ &#160;Restart again ZenZefi</p>
+<h2 style="text-align: justify; font-family: 'Daimler CS', Calibri; text-decoration: none; "><b>5.2 
+ <a name="How_to_start_ZenZefi" style="color: #000000; text-decoration: none; ">How 
+ to start ZenZefi</a></b></h2>
+<p style="font-family: 'Daimler CS', Calibri;"><span lang="EN-US" xml:lang="EN-US">ZenZefi 
+ is installed as a Windows Service, but the service does not start automatically.</span></p>
+<h3 style="text-align: justify; font-family: 'Daimler CS', Calibri; text-decoration: none; "><b>Solution 
+ 1: &#160;<a name="Start_ZenZefi_manually_via_cmd.exe" style="color: #000000; 
+			 text-decoration: none; ">Start ZenZefi manually via cmd.exe</a></b></h3>
+<ol style="list-style: decimal;">
+	<li style="font-family: 'Daimler CS', Calibri;"><p style="font-family: 'Daimler CS', Calibri; 
+														 margin-left: 0px;">Store 
+	 zenzefi.jar and zenzefi_cli.exe on your local device.</p></li>
+	<li style="font-family: 'Daimler CS', Calibri;"><p style="font-family: 'Daimler CS', Calibri;"><span 
+	 class="label" style="font-family: 'Daimler CS', Calibri;">Open <b>cmd.exe</b></span></p></li>
+</ol>
+<p style="margin-left: 36px; text-indent: -24px; font-family: 'Daimler CS', Calibri;"><b><span 
+	 class="label">&#160;&#160;</span><span style="font-size: 11pt;"><img src="Pictures/chapter5/zenzefi_as_java_application_start.png" alt="" style=" border:Outset 1px #c0c0c0; margin-left:1px; margin-right:1px; margin-top:1px; margin-bottom:1px; width:100%; max-width:831px;" border="1" /></span></b></p>
+<p style="margin-left: 36px; text-indent: -24px; font-family: 'Daimler CS', Calibri; 
+	 text-align: justify;"><i><span class="label">&#160;</span><span class="label" 
+	 style="font-size: 10pt; font-style: italic;">&#160;Figure 65</span></i><span 
+	 class="label" style="font-size: 10pt; font-style: italic;">: <i style="font-size: 10pt; 
+	 font-style: italic;">ZenZefi as a Java Application Start</i></span></p>
+<p style="margin-left: 36px; text-indent: -24px; font-family: 'Daimler CS', Calibri; 
+	 text-align: justify;">&#160;</p>
+<p style="margin-left: 36px; text-indent: -24px; text-align: justify;"><span 
+	 class="label">&#160;3. &#160;<b style="font-weight: normal; font-family: 'Daimler CS', Calibri;">N</b>avigate 
+ to the location where the &quot;zenzefi.jar&quot; and &quot;zenzefi_cli.exe&quot; 
+ are stored. E.g. <b style="font-family: 'Daimler CS', Calibri;">C:\Users\&lt;USERNAME&gt;</b></span></p>
+<p style="font-family: 'Daimler CS', Calibri; margin-left: 36px; text-indent: -24px; 
+	 text-align: justify;"><span class="label"><span class="label" style="font-size: 11pt;">&#160;4. 
+ </span><span class="label">&#160;</span>Run the command <span style="font-weight: bold;">java 
+ -jar zenzefi.jar</span> to start ZenZefi on your local device<span class="label">. 
+ </span><b><span class="label" style="font-weight: normal;">(Complete command 
+ is</span><span class="label"> C:\Users\USERNAME&gt;&#160;java -jar zenzefi.jar</span><span 
+	 class="label" style="font-weight: normal;">)</span></b></span></p>
+<ul style="list-style: disc;">
+	<ul style="list-style: disc;">
+		<li><p style="font-family: 'Daimler CS', Calibri; text-align: justify;"><span 
+		 class="label"><span class="label">ZenZefi provides a web-based 
+		 user interface (UI</span><span class="label" style="font-size: 11pt;">) 
+		 for R&amp;D. The UI can be accessed by following link: <a href="https://localhost:61000/zenzefi/ui/index.html" 
+		 style="font-size: 11pt; font-family: 'Daimler CS', Calibri;">https://localhost:61000/zenzefi/ui/index.html</a> 
+		 </span><span class="Hyperlink" style="font-size: 11pt; font-family: 'Daimler CS', Calibri;">&#160;</span></span></p></li>
+		<li><p style="font-family: 'Daimler CS', Calibri; text-align: justify;"><span 
+		 class="label">By default, ZenZefi uses a default user on its startup</span></p></li>
+	</ul>
+</ul>
+<h3><b style="font-family: 'Daimler CS', Calibri;"><span style="font-size: 11pt; 
+														 font-family: 'Daimler CS', Calibri;">Solution 
+ 2:</span> <a name="Start_ZenZefi_via_double-click" style="color: #000000; 
+				 font-family: 'Daimler CS', Calibri; text-decoration: none; ">Start 
+ ZenZefi via double-click</a></b></h3>
+<p style="margin-left: 36px; text-indent: -24px; text-align: justify;"><span 
+	 class="label">&#160;&#160;&#160;<span class="label" style="font-size: 11pt;">&#160;</span><span 
+	 class="label" style="font-size: 11pt; font-family: 'Daimler CS', Calibri;">1. 
+ &#160;</span><span style="font-size: 11pt; font-family: 'Daimler CS', Calibri;">S</span>tore 
+ zenzefi.jar and zenzefi_cli.exe on your local device</span></p>
+<p style="font-family: 'Daimler CS', Calibri; margin-left: 36px; text-indent: -24px; 
+	 text-align: justify;"><span class="label"><span class="label">&#160;&#160;&#160;&#160;2. 
+ &#160;Double-click on zenzefi.jar</span></span></p>
+<p style="margin-left: 36px; text-indent: -24px; text-align: justify; font-size: 11pt; 
+	 font-family: 'Daimler CS', Calibri;"><span class="label"><span class="label">&#160;&#160;&#160;&#160;3. 
+ &#160;To start the ZenZefi UI, </span><span class="label" style="text-indent: -18.0pt;">open 
+ the Browser and point it to URL with following link: <a href="https://localhost:61000/zenzefi/ui/index.html" 
+														 style="font-size: 11pt; 
+														 font-family: 'Daimler CS', Calibri;">https://localhost:61000/zenzefi/ui/index.html</a></span></span></p>
+<p style="font-size: 11pt; font-family: 'Daimler CS', Calibri; margin-left: 36px; 
+	 text-indent: -24px; text-align: justify;">&#160;</p>
+<table style=" border:none; border-collapse:separate; width:100%; max-width:82.17%;" cellspacing="0">
+	<col style="width: 4.561%;" />
+	<col style="width: 95.439%;" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: solid #DDDDDD 1.0px; 
+			 border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#F2F2F2"><p style="text-align: center; font-size: 22.0pt; 
+									 font-family: 'Daimler CS', Calibri;"><b>i</b></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: solid #DDDDDD 1.0px; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 font-size: 10pt; 
+															 margin-left: 7px; 
+															 margin-right: 7px;"><b>Single 
+		 User Mode:</b> After starting, ZenZefi will always run in default 
+		 user mode. After a user logs in, ZenZefi will run on behalf of 
+		 that user, no matter over which interface (UI, REST, CLI) the 
+		 interaction with ZenZefi is triggered.</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" bgcolor="#F0F0F0"><p 
+			 style="text-align: center; font-size: 22.0pt; font-family: 'Daimler CS', Calibri;"><b>!</b></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; font-size: 10pt; 
+			 margin-left: 7px; margin-right: 7px;">Closing the command 
+		 shell will stop running ZenZefi, when ZenZefi is started via the 
+		 CLI!</p></td>
+	</tr>
+</table>
+<h2 style="text-align: justify; font-family: 'Daimler CS', Calibri; text-decoration: none; ">5.3<span 
+	 class="label">&#160;</span><a name="How_to_stop_ZenZefi_-__Windows_Task_manager" 
+									 style="color: #000000; text-decoration: none; "><span 
+	 class="label" style="color: #000000; text-decoration: none; ">How 
+ to stop ZenZefi via </span><span><b style="color: #000000; text-decoration: none; ">Windows 
+ Task manager</b></span></a></h2>
+<p style="font-family: 'Daimler CS', Calibri;"><span lang="EN-US" xml:lang="EN-US">ZenZefi 
+ cannot be stopped via CLI, as explained in chapter </span><a href="How_to_install_and_start_the_software.htm#How_to_stop_ZenZefi">2.3 
+ How to stop ZenZefi</a>.</p>
+<p style="font-family: 'Daimler CS', Calibri;">&#160;</p>
+<p style="font-size: 11pt; font-family: 'Daimler CS', Calibri; text-align: justify;"><b>Solution:</b><br />
+<span class="label">In some exceptional cases ZenZefi can also be stopped 
+ via the Windows Task manager (note: this is not the common way to stop 
+ ZenZefi).<br />
+When ZenZefi is started from command line, a PID can be noticed in the 
+ logs. e.g.: PID 20620</span></p>
+<p style="font-family: 'Daimler CS', Calibri; text-align: justify;"><span 
+	 class="label"><span class="label">Open Windows Task manager by pressing 
+ <b>CRLT + ALT + ENTER</b> and shutdown <b>&quot;javaw.exe *32&quot;or 
+ &quot;java.exe&quot;</b> proces</span><span class="label" style="font-size: 11pt;">s, 
+ which has the same PID as the one from the logs.</span></span></p>
+<p style="font-family: 'Daimler CS', Calibri;"><span class="label">&#160;&#160;<img src="Pictures/chapter5/check_if_zenzefi_javaw.exe_32_or_java.exe_is_running.png" alt="" style=" border:Outset 1px #c0c0c0; margin-left:1px; margin-right:1px; margin-top:1px; margin-bottom:1px; width:100%; max-width:662px;" border="1" /></span></p>
+<p style="font-family: 'Daimler CS', Calibri; text-align: justify; font-size: 10pt; 
+	 font-style: italic;"><i><span class="label" style="font-style: italic;">&#160;&#160;Figure</span></i><span 
+	 class="label"> 66</span><i><span class="label" style="font-style: italic;">: 
+ Check if ZenZefi &quot;javaw.exe *32&quot; or &quot;java.exe&quot; is 
+ Running</span></i></p>
+<p style="font-family: 'Daimler CS', Calibri; text-align: justify;">&#160;</p>
+<table style=" border:none; border-collapse:separate; width:100%; max-width:52.845%;" cellspacing="0">
+	<col style="width: 7.092%;" />
+	<col style="width: 92.908%;" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: solid #DDDDDD 1.0px; 
+			 border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#F2F2F2"><p style="text-align: center; font-size: 22.0pt; 
+									 font-family: 'Daimler CS', Calibri;"><b>!</b></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: solid #DDDDDD 1.0px; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><ul style="list-style: disc; 
+															 font-family: 'Daimler CS', Calibri;">
+			<li style="font-family: 'Daimler CS', Calibri;"><p style="font-size: 10.0pt; 
+				 line-height: normal; font-family: 'Daimler CS', Calibri; 
+				 margin-left: 0px; text-align: justify;">By stopping the 
+			 current running java-process(es), all java sessions will be 
+			 shut down immediately.</p></li>
+			<li style="font-family: 'Daimler CS', Calibri;"><p style="font-size: 10.0pt; 
+				 line-height: normal; font-family: 'Daimler CS', Calibri; 
+				 margin-left: 0px; text-align: justify;">The name of the 
+			 Java process in your task manager may vary depending of the 
+			 deployed ZenZefi Version.</p></li>
+		</ul></td>
+	</tr>
+	<tr>
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#F2F2F2"><p style="text-align: center; font-size: 22.0pt; 
+									 font-family: 'Daimler CS', Calibri;"><b>!</b></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt;"><span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: 'Daimler CS'; 
+		 mso-bidi-font-family: 'Daimler CS'; mso-ansi-language: EN-US; 
+		 mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">&#160;&#160;</span><span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: 'Daimler CS'; 
+		 mso-bidi-font-family: 'Daimler CS'; mso-ansi-language: EN-US; 
+		 mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-family: 'Daimler CS', Calibri;">By 
+		 stopping ZenZefi via the Windows Task manager, the database can 
+		 be corrupted. It is recommended to backup the database prior.</span></p></td>
+	</tr>
+</table>
+<h2 style="text-align: justify; font-family: 'Daimler CS', Calibri; text-decoration: none; ">5.4 
+ <a name="Install_the_ZenZefi_security_certificate" style="font-family: 'Daimler CS', Calibri; 
+	 color: #000000; text-decoration: none; ">Install the ZenZefi security 
+ certificate</a></h2>
+<p style="font-size: 11pt; font-family: 'Daimler CS', Calibri; text-align: justify;">When 
+ the ZenZefi UI is opened in the browser a warning is displayed, as seen 
+ in chapter <a href="Introduction.htm#Warning_messages">1.2.2 Warning messages</a>.</p>
+<p style="font-size: 11pt; font-family: 'Daimler CS', Calibri; text-align: justify;">&#160;</p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; font-weight: bold; 
+	 text-align: justify;">Solution:</p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px; text-align: justify;">1. &#160;Open a browser 
+ and navigate to ZenZefi UI</p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px; text-align: justify;">2. &#160;In the address 
+ bar press &quot;Certificate error&quot;</p>
+<p style="margin-left: 36px; text-indent: -24px; font-family: 'Daimler CS', Calibri; 
+	 font-size: 11pt; text-align: justify;">3. &#160;Press &quot;View certificates&quot;</p>
+<p style="font-size: 11pt; margin-left: 36px; text-indent: -24px; font-family: 'Daimler CS', Calibri;">&#160;&#160;<img src="Pictures/chapter5/untrusted_certificate.png" alt="" style=" border:Outset 1px #c0c0c0; margin-left:1px; margin-right:1px; margin-top:1px; margin-bottom:1px; width:100%; max-width:311px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px; text-align: justify;"><i>&#160;&#160;<span style="font-size: 10pt; 
+	 font-style: italic;">Figure</span></i><span style="font-size: 10pt; 
+												 font-style: italic;"> 
+ 67<i>: Untrusted Certificate</i> </span></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px; text-align: justify;">&#160;</p>
+<p style="margin-left: 36px; text-indent: -24px; font-family: 'Daimler CS', Calibri; 
+	 font-size: 11pt; text-align: justify;">&#160;4. &#160;In Certificate 
+ window press &quot;Install Certificate...&quot;</p>
+<p style="font-size: 11pt; margin-left: 36px; text-indent: -24px; font-family: 'Daimler CS', Calibri;">&#160;&#160;<img src="Pictures/chapter5/install_certificate.png" alt="" style=" border:Outset 1px #c0c0c0; margin-left:1px; margin-right:1px; margin-top:1px; margin-bottom:1px; width:100%; max-width:384px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px; text-align: justify;"><i>&#160;&#160;<span style="font-size: 10pt; 
+	 font-style: italic;">Figure</span></i><span style="font-size: 10pt; 
+												 font-style: italic;"> 
+ 68<i>: </i></span><i><span style="font-style: italic; font-size: 10.0pt; 
+							 mso-fareast-font-family: 'Daimler CS'; mso-bidi-font-family: 'Daimler CS'; 
+							 mso-ansi-language: EN-US; mso-fareast-language: DE; 
+							 mso-bidi-language: DE; mso-bidi-font-style: normal;">Install 
+ Certificate</span></i></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px; text-align: justify;">&#160;</p>
+<p style="mso-bidi-font-style: normal; margin-left: 36px; text-indent: -24px; 
+	 font-family: 'Daimler CS', Calibri; font-size: 11pt; text-align: justify;">5. 
+ &#160;Press &quot;Next&quot; to start the certificate importing process</p>
+<p style="font-size: 11pt; margin-left: 36px; text-indent: -24px; font-family: 'Daimler CS', Calibri; 
+	 mso-bidi-font-style: normal;">&#160;&#160;<img src="Pictures/chapter5/certificate_import_wizard.png" alt="" style=" border:Outset 1px #c0c0c0; margin-left:1px; margin-right:1px; margin-top:1px; margin-bottom:1px; width:100%; max-width:457px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px;"><i><span 
+	 style="font-family: 'Daimler CS', Calibri; font-size: 11pt;">&#160;&#160;&#160;</span><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10pt; font-family: 'Daimler CS', Calibri; 
+	 font-style: italic; mso-bidi-font-style: normal; text-align: justify;">Figure 
+ 69: Certificate Import Wizard</span></i></p>
+<p style="font-size: 10pt; font-family: 'Daimler CS', Calibri; font-style: italic; 
+	 mso-bidi-font-style: normal; margin-left: 40px; text-align: justify;">&#160;</p>
+<p style="mso-bidi-font-style: normal; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px; font-family: 'Daimler CS', Calibri; text-align: justify;">6. 
+ &#160;Select &quot;Place all certificates in the following store&quot; 
+ and press the &quot;Browse...&quot; button</p>
+<p style="font-size: 11pt; margin-left: 36px; text-indent: -24px; font-style: normal; 
+	 font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal;">&#160;&#160;<img src="Pictures/chapter5/certificate_import_wizard_location.png" alt="" style=" border:Outset 1px #c0c0c0; margin-left:1px; margin-right:1px; margin-top:1px; margin-bottom:1px; width:100%; max-width:458px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px; text-align: justify;"><i>&#160;&#160;<span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10pt; font-style: italic;">Figure 
+ 70: Certificate Import Wizard Browse Location</span></i></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px; text-align: justify;">&#160;</p>
+<p style="mso-bidi-font-style: normal; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px; font-family: 'Daimler CS', Calibri; text-align: justify;">7. 
+ &#160;Select &quot;Trusted Root Certification Authorities&quot; and confirm 
+ by pressing the &quot;OK&quot; button</p>
+<p style="font-size: 11pt; margin-left: 36px; text-indent: -24px; font-style: normal; 
+	 font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal;">&#160;&#160;<img src="Pictures/chapter5/select_certificate_store.png" alt="" style=" border:Outset 1px #c0c0c0; margin-left:1px; margin-right:1px; margin-top:1px; margin-bottom:1px; width:100%; max-width:297px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px; text-align: justify;"><i>&#160;&#160;<span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10pt; font-style: italic;">Figure 
+ 71: Select Certificate Store</span></i></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px; text-align: justify;">&#160;</p>
+<p style="mso-bidi-font-style: normal; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px; font-family: 'Daimler CS', Calibri; text-align: justify;">8. 
+ &#160;Press &quot;Finish&quot; to complete the certificate import process</p>
+<p style="font-size: 11pt; margin-left: 36px; text-indent: -24px; font-family: 'Daimler CS', Calibri; 
+	 mso-bidi-font-style: normal; text-align: justify;">&#160;&#160;<img src="Pictures/chapter5/certificate_import_wizard.png" alt="" style=" border:Outset 1px #c0c0c0; width:100%; max-width:441px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px; text-align: justify;"><i>&#160;&#160;<span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10pt; font-style: italic;">Figure 
+ 72: Complete the Certificate Import Wizard</span></i></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px; text-align: justify;">&#160;</p>
+<p style="mso-bidi-font-style: normal; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px; font-family: 'Daimler CS', Calibri; text-align: justify;">9. 
+ &#160;A Security Warning will appear. To confirm the installation of the 
+ certificate press &quot;Yes&quot;</p>
+<p style="font-size: 11pt; margin-left: 36px; text-indent: -24px; font-style: normal; 
+	 font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal;">&#160;&#160;<img src="Pictures/chapter5/security_warning.png" alt="" style=" border:Outset 1px #c0c0c0; width:100%; max-width:445px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px; text-align: justify;"><i>&#160;&#160;<span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10pt; font-style: italic;">Figure 
+ 73: Security Warning</span></i></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px; text-align: justify;">&#160;</p>
+<p style="mso-bidi-font-style: normal; font-size: 11pt; margin-left: 36px; 
+	 text-indent: -24px; font-family: 'Daimler CS', Calibri; text-align: justify;">10. 
+ &#160;The import was successful. Press &quot;OK&quot; or close the window 
+ by pressing the X button</p>
+<p style="font-size: 11pt; margin-left: 36px; text-indent: -24px; font-style: normal; 
+	 font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal;">&#160;&#160;<img src="Pictures/chapter5/import_successful.png" alt="" style=" border:Outset 1px #c0c0c0; width:100%; max-width:237px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px; text-align: justify;"><i>&#160;&#160;<span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10pt; font-style: italic;">Figure 
+ 74: Import Successful</span></i></p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px; text-align: justify;">&#160;</p>
+<p style="font-family: 'Daimler CS', Calibri; mso-bidi-font-style: normal; 
+	 font-size: 11pt; margin-left: 36px; text-indent: -24px; text-align: justify;">11. 
+ &#160;Restart the browser.</p>
+<h2 style="text-align: justify; font-family: 'Daimler CS', Calibri;">5.5 
+ <a name="ZenZefi_upgrade_process_fails" style="font-family: 'Daimler CS', Calibri; 
+	 color: #000000; text-decoration: none; ">ZenZefi upgrade process fails</a></h2>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; text-align: justify; 
+	 font-weight: normal;">ZenZefi can not be upgraded to a newer version.</p>
+<p style="font-weight: bold; font-family: 'Daimler CS', Calibri; font-size: 11pt; 
+	 text-align: justify;">Solution 1:</p>
+<p style="font-size: 11pt; font-family: 'Daimler CS', Calibri; text-align: justify;">Uninstall 
+ ZenZefi. See <a href="How_to_install_and_start_the_software.htm#Uninstall:_ZenZefi_as_a_Windows_service">2.2.1 
+ Uninstall: ZenZefi as a Windows service</a></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; font-weight: bold; 
+	 text-align: justify;">&#160;</p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; font-weight: bold; 
+	 text-align: justify;">Solution 2:</p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; text-align: justify;">Remove 
+ the older version from &quot;C:\Program Files\ZenZefi&quot; and copy the 
+ new files into this folder again.</p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; text-align: justify;"><img src="Pictures/chapter5/zenzefi_program_files.png" alt="" style=" border:Outset 1px #c0c0c0; width:100%; max-width:666px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 10pt; font-style: italic;"><i><span 
+	 style="font-style: italic;">&#160;&#160;</span><span lang="EN-US" 
+															 xml:lang="EN-US" 
+															 style="font-style: italic;">Figure 
+ 75: </span></i>C:\Program Files\ZenZefi</p>
+<h2 style="font-family: 'Daimler CS', Calibri; font-size: 12pt; text-decoration: none; ">5.6 
+ <span lang="EN-GB" xml:lang="EN-GB" style="mso-bidi-font-size: 24.0pt; 
+		 mso-fareast-font-family: 'Times New Roman';"><a name="Error_occurred_on_resolving_permissions_step" 
+														 style="color: #000000; 
+														 text-decoration: none; ">Error 
+ occurred on resolving permissions step</a></span></h2>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt;"><span lang="EN-GB" 
+	 xml:lang="EN-GB" style="mso-bidi-font-size: 24.0pt; mso-fareast-font-family: 'Times New Roman';">U</span><span 
+	 lang="EN-GB" xml:lang="EN-GB">ser successfully logged in to ZenZefi 
+ (using&#160;a Corporate or a Supplier account). While ZenZefi performs 
+ an update the message &quot;Error occurred on resolving permissions step&quot; 
+ is displayed.</span></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt;"><img src="Pictures/chapter5/user_has_no_permissions.png" alt="" style=" border:Outset 1px #c0c0c0; width:100%; max-width:539px;" border="1" /></p>
+<p style="font-family: 'Daimler CS', Calibri; font-style: italic; font-size: 10pt;"><i><span 
+	 style="font-style: italic;">&#160;&#160;</span><span lang="EN-US" 
+															 xml:lang="EN-US" 
+															 style="font-style: italic;">Figure 
+ 76: The User Does Not Have Permissions</span></i></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt;"><span lang="EN-GB" 
+	 xml:lang="EN-GB">This happens because the user does not have user 
+ permissions to retrieve user certificates.</span></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt; font-weight: bold;"><span 
+	 lang="EN-GB" xml:lang="EN-GB">Solution:</span></p>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt;"><span lang="EN-GB" 
+	 xml:lang="EN-GB">The user should apply for user permissions in the 
+ ACDC.<br />
+</span></p>
+<ul style="list-style: disc;">
+	<li style="font-weight: normal;"><p style="font-family: 'Daimler CS', Calibri; 
+										 font-size: 11pt; font-weight: normal;"><strong><span 
+	 lang="EN-GB" xml:lang="EN-GB" style="font-weight: normal;">Corporate 
+	 users (e.g. Daimler internal users):</span></strong> <a href="https://cebas-pki.es.corpintra.net/ui/"><span 
+	 lang="EN-GB" xml:lang="EN-GB" style="font-family: 'Daimler CS', Calibri; 
+	 font-size: 11pt; font-weight: normal;">https://cebas-pki.es.corpintra.net/ui/</span></a></p></li>
+	<li><p style="font-family: 'Daimler CS', Calibri; font-size: 11pt;"><strong><span 
+	 lang="EN-GB" xml:lang="EN-GB" style="font-weight: normal;">Supplier 
+	 users: </span></strong><span lang="EN-GB" xml:lang="EN-GB"><a href="https://cebas-pki.i.daimler.com/ui/">https://cebas-pki.i.daimler.com/ui/</a> 
+	 </span></p></li>
+</ul>
+<p style="font-family: 'Daimler CS', Calibri; font-size: 11pt;"><span lang="EN-GB" 
+	 xml:lang="EN-GB">After user permissions have been granted, the error 
+ message will not be displayed anymore and the user certificates will be 
+ provided.</span></p>
+</body>
+</html>

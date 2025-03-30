@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"User administration","url":"Function_description.htm#User_administrationbc-1"},{"type":"book","name":"User login & logout","key":"toc8","url":"Function_description.htm#User_Loginbc-2"},{"type":"book","name":"\"Certificates\" tab","key":"toc9","url":"Function_description.htm#Certificates__tabbc-9"},{"type":"book","name":"\"Logging\" tab","key":"toc10","url":"Function_description.htm#Logging_tabbc-16"},{"type":"book","name":"\"Settings\" tab","key":"toc11","url":"Function_description.htm#Settings_tabbc-19"},{"type":"item","name":"Installation details","url":"Function_description.htm#Installation_detailsbc-27"},{"type":"item","name":"Change ZenZefi UI language","url":"Function_description.htm#Change_ZenZefi_UI_languagebc-28"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

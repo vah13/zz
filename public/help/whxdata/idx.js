@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><index>  <chunkinfo url=\"idata1.js\" first=\"Administrator\" last=\"Login\" num=\"82\" />  <chunkinfo url=\"idata2.js\" first=\"Login fails\" last=\"zenzefi.log\" num=\"70\" />  </index>";

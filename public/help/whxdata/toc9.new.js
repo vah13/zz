@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"\"Certificates\" tab buttons","url":"Function_description.htm#Certificates_tab_buttonsbc-10"},{"type":"item","name":"\"Certificates\" table context menu","url":"Function_description.htm#Certificates_table_context_menubc-11"},{"type":"item","name":"\"Certificates\" table columns","url":"Function_description.htm#Certificates_table_columnsbc-12"},{"type":"item","name":"Validity of certificates","url":"Function_description.htm#Validity_of_certificatesbc-13"},{"type":"item","name":"VSM-Simulation ECU certificates vs regular ECU certificates","url":"Function_description.htm#VSM-Simulation_ECU_certificates_vs_regular_ECU_certificatesbc-14"},{"type":"item","name":"ECU certificate folder","url":"Function_description.htm#ECU_certificate_folderbc-15"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

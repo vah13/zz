@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Home","url":"Home.htm"},{"type":"book","name":"Introduction","key":"toc1","url":"Introduction.htm"},{"type":"book","name":"How to install and start ZenZefi","key":"toc4","url":"How_to_install_and_start_the_software.htm"},{"type":"book","name":"Function description","key":"toc7","url":"Function_description.htm"},{"type":"item","name":"ZenZefi commands for the Command Line Interface (CLI)","url":"Commands_for_the_CLI.htm"},{"type":"book","name":"ZenZefi troubleshooting","key":"toc12","url":"ZenZefi_Troubleshooting.htm"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

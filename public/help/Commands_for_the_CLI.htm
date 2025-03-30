@@ -1,0 +1,1747 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="OriginalFile" content="Introduction.docx" />
+<meta name="generator" content="Adobe RoboHelp 2017" />
+<title>Commands for the CLI</title>
+<link rel="stylesheet" href="Commands_for_the_CLI.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/widgets.min.css">
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "3_1";
+</script>
+</head>
+
+<body>
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<h1 style="font-family: 'Daimler CS', Calibri; text-align: justify;"><a 
+	 name="4_ZenZefi_commands_for_the_Command_Line_Interface__CLI_" style="font-family: 'Daimler CS', Calibri; 
+	 color: #000000; text-decoration: none; ">4&#160;ZenZefi commands for 
+ the Command Line Interface (CLI)</a></h1>
+<p style="font-family: 'Daimler CS', Calibri; text-align: justify;">The 
+ following table contains all ZenZefi commands that can be executed via 
+ the CLI:</p>
+<p style="font-family: 'Daimler CS', Calibri; text-align: justify;">&#160;</p>
+<table style=" border:none; border-collapse:separate; width:100%; max-width:56.129%;" cellspacing="0">
+	<col style="width: 6.677%;" />
+	<col style="width: 93.323%;" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: solid #DDDDDD 1.0px; 
+			 border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#F2F2F2"><p style="font-size: 22.0pt; font-family: 'Daimler CS', Calibri; 
+									 text-align: center;"><b>i</b></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: solid #DDDDDD 1.0px; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10.0pt; 
+															 font-family: 'Daimler CS', Calibri; 
+															 text-align: justify;">Further 
+		 commands might be introduced in the next ZenZefi versions. Please 
+		 check the available commands via command line parameter <span 
+		 style="font-weight: bold;">-help</span>.</p></td>
+	</tr>
+</table>
+<p style="font-family: 'Daimler CS', Calibri; text-align: justify;">&#160;</p>
+<p style="font-family: 'Daimler CS', Calibri; text-align: justify;">Please 
+ execute following command via CLI: <span style="font-family: 'Daimler CS', Calibri; 
+											 text-align: justify;">(Navigate 
+ to the directory where the &quot;zenzefi_cli.exe&quot; is located: C:\Program 
+ Files\ZenZefi</span><b><span style="font-family: 'Daimler CS', Calibri; 
+								 text-align: justify; font-weight: normal;">) 
+ </span></b><span style="font-family: 'Daimler CS', Calibri; text-align: justify;"><b>zenzefi_cli.exe 
+ &lt;COMMAND&gt;</b></span><span style="font-family: 'Daimler CS', Calibri; 
+								 text-align: justify; font-weight: bold;"> 
+ <b style="font-weight: bold;">(from table below)</b></span></p>
+<p style="font-family: 'Daimler CS', Calibri;">&#160;</p>
+<table class="tableWithBookmarks" style=" border:none; border-collapse:separate; width:100%; max-width:70.708%;" cellspacing="0">
+	<col style="width: 28.208%;" />
+	<col style="width: 37.62%;" />
+	<col style="width: 33.514%;" />
+	<tr style="height: 29px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: solid #DDDDDD 1.0px; 
+			 border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#F0F0F0"><p style="margin-left: 5px; font-size: 10.0pt; 
+									 color: #00667c; font-family: 'Daimler CS', Calibri;"><b>Command</b></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: solid #DDDDDD 1.0px; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" bgcolor="#F0F0F0"><p 
+			 style="margin-left: 5px; font-size: 10.0pt; color: #00667c; 
+			 font-family: 'Daimler CS', Calibri;"><b>Description</b></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: solid #DDDDDD 1.0px; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" bgcolor="#F0F0F0"><p 
+			 style="margin-left: 5px; font-size: 10.0pt; color: #00667c; 
+			 font-family: 'Daimler CS', Calibri;"><b>Example</b></p></td>
+	</tr>
+	<tr style="height: 44px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-all</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Optional 
+		 command that specifies deleting the entire certificates store. 
+		 It is use only with command: '-deleteCertificatesAkiSn'</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">&#160;</p></td>
+	</tr>
+	<tr style="height: 102px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-cert 
+		 &lt;authorityKeyIdentifier,serialNumber&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; text-align: justify; font-size: 10pt;">Specifies 
+		 a pair of authorityKeyIdentifier and serial number. It is used 
+		 only with command: '-deleteCertificatesAkiSn'</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;authorityKeyIdentifier&gt;&#160;= 
+		 authority key identifier of the regarding certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;serialNumber&gt;&#160;= 
+		 serial number of the regarding certificate</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; font-size: 10pt;">-cert 0E-A1-92-D1-DD-26-9B-B8-79-80-A9-1A-A2-A7-61-C9-0E-A5-34-FB,01</p></td>
+	</tr>
+	<tr style="height: 166px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="checkActiveDiagCert" style="color: #000000; text-decoration: none; ">checkActiveDiagCert</a> 
+		 &lt;backendCertSkid&gt; &lt;diagCertSerialNo&gt;</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span><span lang="EN-US" 
+		 xml:lang="EN-US" style="mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; 
+		 mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-bidi-theme-font: minor-bidi; mso-ansi-language: DE; mso-fareast-language: EN-US; 
+		 mso-bidi-language: AR-SA;"> &lt;</span><span lang="EN-US" xml:lang="EN-US">vin&gt;, 
+		 &lt;ecu&gt;, &lt;userRole&gt;</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Checks 
+		 Active Diagnostic Certificate based on given criteria (vin, ecu 
+		 and userRole are optional).</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;backendCertSkid&gt; 
+		 = subject key identifier of backend certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;diagCertSerialNo&gt; 
+		 = serial number of the regarding diagnostics certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;vin&gt; 
+		 = vin of the regarding diagnostics certificat</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;ecu&gt; 
+		 = ecu the regarding diagnostics certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;userRole&gt; 
+		 = user role of the regarding diagnostics certificate</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-checkActiveDiagCert 
+		 51-82-B1-C2-D6-8C-F7-9A-52-EC-83-4A-1A-80-82-8F-0C-53-58-D4 08-00-00-01-vin 
+		 v1 -ecu e1 -userRole 1</p></td>
+	</tr>
+	<tr style="height: 284px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="checkOwnership" style="color: #000000; text-decoration: none; ">checkOwnership</a> 
+		 &lt;challenge&gt; &lt;backendCertSkid&gt; &lt;serialNo&gt;</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span> &lt;outputdir&gt;</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 text-align: justify; font-size: 10pt; margin-right: 7px;">Checks 
+		 ownership based on given criteria. ZenZefi selects internally 
+		 the diagnostics certificate (PKIRole 03) where the serial number 
+		 of the certificate matches the SerialNumber from the call and 
+		 where the authority key identifier matches the BackendCert-Subject-KeyIdentifier 
+		 from the call. If no certificate or more than one certificate 
+		 are found, an error will be returned.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 5px; 
+			 text-align: justify; font-size: 10pt; margin-right: 7px;">If 
+		 one certificate is found, ZenZefi selects the private key for 
+		 this certificate in its internal storage and calculates a signature 
+		 for the ECUChallenge using this private key.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 5px; 
+			 text-align: justify; font-size: 10pt; margin-right: 7px;">Custom 
+		 directory can be specified, if not it will be saved in the current 
+		 directory.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 5px; 
+			 text-align: justify; font-size: 10pt; margin-right: 7px;">&lt;challenge&gt; 
+		 = path to ECUChallenge file</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 text-align: justify; font-size: 10pt; margin-right: 7px;">&lt;backendCertSkid&gt; 
+		 = subject key identifier of backend certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 text-align: justify; font-size: 10pt; margin-right: 7px;">&lt;serialNo&gt; 
+		 = serial number of the regarding certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 text-align: justify; font-size: 10pt; margin-right: 7px;">&lt;outputdir&gt; 
+		 = custom directory</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-checkOwnership <span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+		 font-family: 'Daimler CS'; mso-fareast-font-family: 'Daimler CS'; 
+		 mso-bidi-font-family: 'Daimler CS'; mso-ansi-language: EN-US; 
+		 mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">C:/folder/</span>data.txt 
+		 51-82-B1-C2-D6-8C-F7-9A-52-EC-83-4A-1A-80-82-8F-0C-53-58-D4 08-00-00-01 
+		 -outputdir <span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+							 font-family: 'Daimler CS'; mso-fareast-font-family: 'Daimler CS'; 
+							 mso-bidi-font-family: 'Daimler CS'; mso-ansi-language: EN-US; 
+							 mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="checkSystemIntegrity" style="color: #000000; text-decoration: none; ">checkSystemIntegrity</a></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Makes 
+		 system integrity check. Custom path can be specified.</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-checkSystemIntegrity 
+		 -path <span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+					 font-family: 'Daimler CS'; mso-fareast-font-family: 'Daimler CS'; 
+					 mso-bidi-font-family: 'Daimler CS'; mso-ansi-language: EN-US; 
+					 mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="checkVersion" style="color: #000000; text-decoration: none; ">checkVersion</a></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Checks 
+		 REST and project version.</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="margin-left: 7px; margin-right: 7px; font-size: 10pt;">&#160;</p></td>
+	</tr>
+	<tr style="height: 65px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="deleteCertificates" style="color: #000000; text-decoration: none; ">deleteCertificates</a> 
+		 &lt;ids&gt;</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 5px; 
+			 text-align: justify; font-size: 10pt;">Deletes certificates 
+		 by ids. The ids list can contain spaces, provided that the list 
+		 is between quotation marks.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 5px; 
+			 text-align: justify; font-size: 10pt;">&lt;ids&gt; = id(s) 
+		 of <span style="font-variant-ligatures: normal; font-variant-caps: normal; 
+					 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+					 background-color: #ffffff; text-decoration-style: initial; 
+					 text-decoration-color: initial; display: inline	 ! important ; 
+					 float: none;">the regarding certificate(s)</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-deleteCertificates3b1cc183-af06-4b64-9e0e-aa837219f754,b1cc183-af06-4b64-9e0e-aa83721aa454</p></td>
+	</tr>
+	<tr style="height: 182px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-size: 10pt; 
+															 font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 text-decoration: none; "><span 
+		 style="font-weight: bold;">-</span><a name="deleteCertificatesAkiSn" 
+												 style="color: #000000; 
+												 text-decoration: none; ">deleteCertificatesAkiSn</a></p>
+		<p style="font-size: 10pt; font-family: 'Daimler CS', Calibri; 
+			 margin-left: 5px; text-decoration: none; "><span style="font-weight: bold;">Optional 
+		 parameters:</span> &lt;cert&gt;</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Delete 
+		 all certificates by using option -all or delete certificates by 
+		 authority key identifier and serial number. The authority key 
+		 identifier/ serial number pair can contain spaces, provided that 
+		 the pair is between quotation marks.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;"><span 
+		 style="font-family: 'Daimler CS', Calibri; font-size: 10pt;">If 
+		 a root certificate needs to be deleted, the syntax is: '-cert 
+		 ,sn', due to the fact that root certificates do not </span><span 
+		 style="font-family: 'Daimler CS', Calibri; text-align: justify; 
+		 font-size: 10pt;">have authority key identifier, and the syntax 
+		 for the command line must be consistent.</span></p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;cert&gt; 
+		 = is composed from authority key identifier of the regarding certificate 
+		 and serial number of the regarding certificate. They are separated 
+		 by comma.</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-deleteCertificatesAkiSn 
+		 -cert aki1,sn1 -cert aki2,sn2 -cert aki3,sn3</p></td>
+	</tr>
+	<tr style="height: 60px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-size: 10pt; font-family: 'Daimler CS', Calibri; 
+			 margin-left: 5px; text-decoration: none; ">-<a name="differentialUpdate" 
+															 style="color: #000000; 
+															 text-decoration: none; ">differentialUpdate</a></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Performs 
+		 differential update of the certificates. Only those certificates 
+		 in the user certificate store are requested which will expire 
+		 shortly or which are not available yet in user certificate store.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">&#160;</p></td>
+	</tr>
+	<tr style="height: 60px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-size: 10pt; font-family: 'Daimler CS', Calibri; 
+					 margin-left: 5px; text-decoration: none; ">-ecu &lt;ecu&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; text-align: justify; font-size: 10pt;">Optional 
+		 command that specifies the targetECU. It is used only with commands: 
+		 '-getDiagCert, -checkActiveDiagCert,-getEnhDiagCert, -getTimeCert, 
+		 -secureVariantCoding'</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; font-size: 10pt;">-ecu ECUDiagnoseName</p></td>
+	</tr>
+	<tr style="height: 51px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-size: 10pt; font-family: 'Daimler CS', Calibri; 
+			 margin-left: 5px; text-decoration: none; ">-enableAutologout 
+		 &lt;state&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Enable/Disabled 
+		 automatically logout</p>
+		<span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+				 font-family: 'Daimler CS'; mso-fareast-font-family: 'Daimler CS'; 
+				 mso-bidi-font-family: 'Daimler CS'; mso-ansi-language: EN-US; 
+				 mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">&#160;&#160;&lt;state&gt; 
+		 = “ON” or “OFF”</span> </td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-enableAutologout ON</p></td>
+	</tr>
+	<tr style="height: 44px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-size: 10pt; font-family: 'Daimler CS', Calibri; 
+			 margin-left: 5px; text-decoration: none; ">-<a name="fullUpdate" 
+															 style="color: #000000; 
+															 text-decoration: none; ">fullUpdate</a></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Performs 
+		 full update of the certificates. All certificates the user has 
+		 rights for are requested independently of the certificate renewal 
+		 time.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">&#160;</p></td>
+	</tr>
+	<tr style="height: 140px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="getCertByID" style="color: #000000; text-decoration: none; ">getCertByID</a> 
+		 &lt;authorityKeyIdentifier&gt; &lt;serialNo&gt;</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span>&lt;outputdir&gt;</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Gets 
+		 and saves into file certificate by authority key identifier and 
+		 serial number. Custom directory can be specified, if not it will 
+		 be saved in the current directory.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;authorityKeyIdentifier&gt; 
+		 = authority key identifier of the regarding certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;serialNo&gt; 
+		 = serial number of the regarding certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;outputdir&gt; 
+		 = custom directory</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; font-size: 10pt; 
+			 margin-left: 7px; margin-right: 7px;">-getCertByID 51-82-B1-C2-D6-8C-F7-9A-52-EC-83-4A-1A-80-82-8F-0C-53-58-D4 
+		 08-00-00-01 -outputdir <span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+										 font-family: 'Daimler CS'; mso-fareast-font-family: 'Daimler CS'; 
+										 mso-bidi-font-family: 'Daimler CS'; 
+										 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+										 mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 145px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="getDiagCert" style="color: #000000; text-decoration: none; ">getDiagCert</a> 
+		 &lt;backendCertSkid&gt;</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span> &lt;vin&gt;, 
+		 &lt;ecu&gt;, &lt;userRole&gt;, &lt;outputdir&gt;</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;"><span 
+		 lang="EN-US" xml:lang="EN-US">Gets and saves into file certificate 
+		 based on given criteria (vin, ecu and userRole are optional). 
+		 Custom directory can be specified, if not it will be saved in 
+		 the current directory.</span></p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;backendCertSkid&gt; 
+		 = subject key identifier of backend certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;vin&gt; 
+		 = vin of the regarding diagnostics certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;ecu&gt; 
+		 = ecu of the regarding diagnostics certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;userRole&gt; 
+		 = user role of the regarding diagnostics certificate</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-getDiagCert 51-82-B1-C2-D6-8C-F7-9A-52-EC-83-4A-1A-80-82-8F-0C-53-58-D4 
+		 -vin v1 -ecu e1 -userRole 1 -outputdir <span lang="EN-US" xml:lang="EN-US" 
+														 style="mso-bidi-font-size: 11.0pt; 
+														 font-family: 'Daimler CS'; 
+														 mso-fareast-font-family: 'Daimler CS'; 
+														 mso-bidi-font-family: 'Daimler CS'; 
+														 mso-ansi-language: EN-US; 
+														 mso-fareast-language: EN-US; 
+														 mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 124px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-<a 
+		 name="getDiagCertForCentralAuthentication" style="color: #000000; 
+		 text-decoration: none; ">getDiagCertForCentralAuthentication</a> 
+		 &lt;backendCertSkid&gt;</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span><span lang="EN-US" 
+		 xml:lang="EN-US" style="mso-bidi-language: AR-SA;"> &lt;vin&gt;, 
+		 </span><span style="mso-bidi-language: AR-SA;">&lt;</span><span 
+		 lang="EN-US" xml:lang="EN-US">outputdir</span><span style="mso-bidi-language: AR-SA;">&gt;</span></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Gets 
+		 and saves into file certificate based on given criteria (vin, 
+		 is optional). Custom directory can be specified, if not it will 
+		 be saved in the current directory.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;backendCertSkid&gt; 
+		 = subject key identifier of backend certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;vin&gt; 
+		 = vin of the regarding diagnostics certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;outputdir&gt; 
+		 = custom directory</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 5px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-getDiagCertForCentralAuthentication 
+		 51-82-B1-C2-D6-8C-F7-9A-52-EC-83-4A-1A-80-82-8F-0C-53-58-D4 -vin 
+		 WDD2231234A123456 -outputdir <span lang="EN-US" xml:lang="EN-US" 
+											 style="mso-bidi-font-size: 11.0pt; 
+											 mso-fareast-font-family: 'Daimler CS'; 
+											 mso-bidi-font-family: 'Daimler CS'; 
+											 mso-ansi-language: EN-US; 
+											 mso-fareast-language: EN-US; 
+											 mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 86px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-<a 
+		 name="getDiagCertIdRole" style="color: #000000; text-decoration: none; ">getDiagCertIdRole</a> 
+		 &lt;backendCertSkid&gt; &lt;serialNo&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Gets 
+		 the role of a diagnostic certificate searched by subject key identifier 
+		 and serial number.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;backendCertSkid&gt; 
+		 = subject key identifier of backend certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;serialNo&gt; 
+		 = serial number of the regarding certificate</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-getDiagCertIdRole 51-82-B1-C2-D6-8C-F7-9A-52-EC-83-4A-1A-80-82-8F-0C-53-58-D4 
+		 08-00-00-01</p></td>
+	</tr>
+	<tr style="height: 177px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 font-family: 'Daimler CS', Calibri; 
+															 text-decoration: none; ">-<a 
+		 name="getEnhDiagCert" style="color: #000000; font-size: 10pt; 
+		 font-family: 'Daimler CS', Calibri; text-decoration: none; ">getEnhDiagCert</a> 
+		 &lt;backendCertSkid&gt; &lt;diagCertSerialNumber&gt;</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span><span lang="EN-US" 
+		 xml:lang="EN-US" style="mso-bidi-language: AR-SA;"> &lt;</span><span 
+		 lang="EN-US" xml:lang="EN-US">vin&gt;, &lt;ecu&gt;, </span><span 
+		 style="mso-bidi-language: AR-SA;">&lt;</span><span lang="EN-US" 
+															 xml:lang="EN-US">outputdir</span><span 
+		 style="mso-bidi-language: AR-SA;">&gt;</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Gets 
+		 and saves certificates into a file based on given criteria (vin 
+		 and ecu are optional). Custom directory can be specified, if not 
+		 it will be saved in the current directory.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;backendCertSkid&gt; 
+		 = subject key identifier of backend certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;diagCertSerialNumber&gt; 
+		 = serial number of the regarding diagnostics certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;vin&gt; 
+		 = vin of the regarding enhanced certificate of the regarding enhanced 
+		 certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;outputdir&gt; 
+		 = custom directory</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-getEnhDiagCert 51-82-B1-C2-D6-8C-F7-9A-52-EC-83-4A-1A-80-82-8F-0C-53-58-D4 
+		 08-00-00-01 -vin v1 -ecu e1 -outputdir <span lang="EN-US" xml:lang="EN-US" 
+														 style="mso-bidi-font-size: 11.0pt; 
+														 mso-fareast-font-family: 'Daimler CS'; 
+														 mso-bidi-font-family: 'Daimler CS'; 
+														 mso-ansi-language: EN-US; 
+														 mso-fareast-language: EN-US; 
+														 mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 94px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 mso-bidi-font-size: 11.0pt; 
+															 font-size: 10pt; 
+															 text-decoration: none; "><span 
+		 lang="EN-US" xml:lang="EN-US">-getEnhRightID &lt;services&gt; 
+		 &lt;backendSKI&gt;</span></p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span><span lang="EN-US" 
+		 xml:lang="EN-US" style="mso-bidi-language: AR-SA;"> </span><span 
+		 style="mso-bidi-language: AR-SA;">&lt;</span><span lang="EN-US" 
+															 xml:lang="EN-US">outputdir</span><span 
+		 style="mso-bidi-language: AR-SA;">&gt;</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; font-size: 10pt;">Determine 
+		 Enhanced Rights Certificates for dedicated services. Search for 
+		 Enhanced Rights certificates in the user store containing specific 
+		 services. Custom directory can be specified, if not it will be 
+		 saved in the current directory.</p>
+		<p><span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+				 mso-fareast-font-family: 'Daimler CS'; mso-bidi-font-family: 'Daimler CS'; 
+				 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+				 mso-bidi-language: AR-SA; font-family: 'Daimler CS', Calibri; 
+				 font-size: 10pt;">&lt;outputdir&gt; = custom directory</span> 
+		 </p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; mso-bidi-font-size: 11.0pt; 
+			 mso-fareast-font-family: 'Daimler CS'; mso-bidi-font-family: 'Daimler CS';"><span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-ansi-language: EN-US; 
+		 mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">-getEnhRightID 
+		 1234,ffee,ff D3-2E-9A-4B-64-B1-9A-8A-DE-74-7F-31-D2-77-F9-81-94-00-AE-DE 
+		 -path C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 44px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="getLogArchive" style="color: #000000; text-decoration: none; ">getLogArchive</a> 
+		 &lt;path&gt;</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Downloads 
+		 zenzefi-logs.zip to the current directory or to the specified 
+		 path.</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-getLogArchive -path 
+		 <span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+				 mso-fareast-font-family: 'Daimler CS'; mso-bidi-font-family: 'Daimler CS'; 
+				 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+				 mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 44px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="getLogFile" style="color: #000000; text-decoration: none; ">getLogFile</a> 
+		 &lt;path&gt;</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Downloads 
+		 zenzefi-database-logs.xml to the current directory or to the path 
+		 specified.</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-getLogFile -path <span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+		 mso-fareast-font-family: 'Daimler CS'; mso-bidi-font-family: 'Daimler CS'; 
+		 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 124px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-<a 
+		 name="getReplacementPackage" style="color: #000000; text-decoration: none; ">getReplacementPackage</a> 
+		 &lt;ecuCertificatePath&gt; &lt;backendSKI&gt;</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters</span>: &lt;uniqueEcuId&gt;, 
+		 &lt;<span lang="EN-US" xml:lang="EN-US">outputdir</span>&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Retrieves 
+		 a certificate replacement package (unique ecu id is optional). 
+		 Accepted target values: ROOT, BACKEND, ECU.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;ecuCertificatePath&gt; 
+		 = path for ECU certificate<span style="font-family: 'Daimler CS', Calibri; 
+										 text-align: justify; font-size: 10pt;"><br />
+		&lt;backendSKI&gt; = subject key identifier of backend certificate</span></p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;uniqueEcuId&gt; 
+		 = Unique ECU ID</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;outputdir&gt; 
+		 = custom directory</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-getReplacementPackage 
+		 <span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+				 mso-fareast-font-family: 'Daimler CS'; mso-bidi-font-family: 'Daimler CS'; 
+				 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+				 mso-bidi-language: AR-SA;">C:/folder/</span>ecu.crt D3-2E-9A-4B-64-B1-9A-8A-DE-74-7F-31-D2-77-F9-81-94-00-AE-DE 
+		 -uniqueEcuIdABR123 -outputdir <span lang="EN-US" xml:lang="EN-US" 
+											 style="mso-bidi-font-size: 11.0pt; 
+											 mso-fareast-font-family: 'Daimler CS'; 
+											 mso-bidi-font-family: 'Daimler CS'; 
+											 mso-ansi-language: EN-US; 
+											 mso-fareast-language: EN-US; 
+											 mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 76px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-getRootBackends 
+		 &lt;target&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-align: justify;"><span>Request 
+		 all Backend CA certifictes (BACKEND) or all Root CA certificates 
+		 (ROOT). If no parameter is given all Backend</span><span style="text-align: justify;"> 
+		 CA certificates and all Root CA certificates are provided. Certificates 
+		 are printed in base64 format to STDOUT (console).</span></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-getRootBackends ROOT</p></td>
+	</tr>
+	<tr style="height: 204px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="getSecOCISCert" style="color: #000000; text-decoration: none; ">getSecOCISCert</a> 
+		 &lt;certificate&gt; &lt;backendCertSkid&gt; &lt;diagCertSerialNo&gt; 
+		 &lt;ecu&gt; <span lang="EN-US" xml:lang="EN-US" style="mso-bidi-language: AR-SA;">&lt;</span><span 
+		 lang="EN-US" xml:lang="EN-US">vin&gt;</span></p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span><span lang="EN-US" 
+		 xml:lang="EN-US" style="mso-bidi-language: AR-SA;"> </span><span 
+		 style="mso-bidi-language: AR-SA;">&lt;</span><span lang="EN-US" 
+															 xml:lang="EN-US">outputdir</span><span 
+		 style="mso-bidi-language: AR-SA;">&gt;</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Gets 
+		 and saves into file certificate based on given criteria (vin is 
+		 mandatory). The certificate will be read from the provided file. 
+		 Custom directory can be specified, if not it will be saved in 
+		 the current directory.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;certificate&gt; 
+		 = path <span style="font-variant-ligatures: normal; font-variant-caps: normal; 
+						 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+						 background-color: #ffffff; text-decoration-style: initial; 
+						 text-decoration-color: initial; display: inline	 ! important ; 
+						 float: none;">of the regarding certificate</span></p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;backendCertSkid&gt; 
+		 = s<b style="box-sizing: border-box; font-weight: normal; font-variant-ligatures: normal; 
+				 font-variant-caps: normal; letter-spacing: -0.32px; orphans: 2; 
+				 white-space: nowrap; widows: 2; -webkit-text-stroke-width: 0px; 
+				 background-color: #ffffff; text-decoration-style: initial; 
+				 text-decoration-color: initial;">ubject key identifier</b> 
+		 &#160;of backend certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;diagCertSerialNo&gt; 
+		 = serial number <span style="font-variant-ligatures: normal; font-variant-caps: normal; 
+								 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+								 background-color: #ffffff; text-decoration-style: initial; 
+								 text-decoration-color: initial; display: inline	 ! important ; 
+								 float: none;">of the regarding diagnostics 
+		 certificate</span></p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;ecu&gt; 
+		 = ecu <span style="font-variant-ligatures: normal; font-variant-caps: normal; 
+					 orphans: 2; widows: 2; -webkit-text-stroke-width: 0px; 
+					 background-color: #ffffff; text-decoration-style: initial; 
+					 text-decoration-color: initial; display: inline	 ! important ; 
+					 float: none;">of the regarding SecOCIS certificate</span></p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;vin&gt; 
+		 = vin of the regarding SecOCIS certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;outputdir&gt; 
+		 = custom directory</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-getSecOCISCert <span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+		 mso-fareast-font-family: 'Daimler CS'; mso-bidi-font-family: 'Daimler CS'; 
+		 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">C:/folder/</span>ABR223.crt 
+		 51-82-B1-C2-D6-8C-F7-9A-52-EC-83-4A-1A-80-82-8F-0C-53-58-D4 01-00-00-01 
+		 EZS223 -vin v1 -outputdir <span lang="EN-US" xml:lang="EN-US" 
+										 style="mso-bidi-font-size: 11.0pt; 
+										 mso-fareast-font-family: 'Daimler CS'; 
+										 mso-bidi-font-family: 'Daimler CS'; 
+										 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+										 mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 145px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="getTimeCert" style="color: #000000; text-decoration: none; ">getTimeCert</a> 
+		 &lt;backendCertSkid&gt; &lt;nonce&gt; &lt;vin&gt;</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span><span lang="EN-US" 
+		 xml:lang="EN-US" style="mso-bidi-language: AR-SA;"> </span><span 
+		 style="mso-bidi-language: AR-SA;">&lt;</span><span lang="EN-US" 
+															 xml:lang="EN-US">outputdir</span><span 
+		 style="mso-bidi-language: AR-SA;">&gt;</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Gets 
+		 and saves into file certificate based on given criteria (ecu is 
+		 optional). Custom directory can be specified, if not it will be 
+		 saved in the current directory.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;backendCertSkid&gt; 
+		 = subject key identifierof backend certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;nonce&gt; 
+		 = nonce of the regarding time certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;vin&gt; 
+		 = vin of the regarding time certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;outputdir&gt; 
+		 = custom directory</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-getTimeCert 51-82-B1-C2-D6-8C-F7-9A-52-EC-83-4A-1A-80-82-8F-0C-53-58-D4 
+		 12-34-56-78-90-AB-CD-EF-12-34-56-78-90-AB-CD-EF-12-34-56-78-90-AB-CD-EF-12-34-56-78-90-AB-CD-EF 
+		 WDD2231234A123456 -ecu e1 -outputdir <span lang="EN-US" xml:lang="EN-US" 
+													 style="mso-bidi-font-size: 11.0pt; 
+													 font-family: 'Daimler CS'; 
+													 mso-fareast-font-family: 'Daimler CS'; 
+													 mso-bidi-font-family: 'Daimler CS'; 
+													 mso-ansi-language: EN-US; 
+													 mso-fareast-language: EN-US; 
+													 mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="help" style="color: #000000; text-decoration: none; ">help</a></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Contains 
+		 the description and samples for each command</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="margin-left: 5px; font-size: 10pt;">&#160;</p></td>
+	</tr>
+	<tr style="height: 60px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 5px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="importCert" style="color: #000000; text-decoration: none; ">importCert</a> 
+		 &lt;filePath,password&gt;</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Imports 
+		 the certificate or PKCS12 container file passed as argument. If 
+		 a password is needed, it will be given separated by a comma. If 
+		 an empty password is needed, the file path will end with a comma.</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-importCert D:/SVN/ZenZefi/zenzefi-cli/target/severalCerts.p12,secret</p></td>
+	</tr>
+	<tr style="height: 49px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="importProductionCert" style="color: #000000; text-decoration: none; ">importProductionCert</a></p>
+		<p style="margin-left: 12px; font-size: 10pt; text-decoration: none; ">&#160;</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Imports 
+		 the encrypted PKCS Package and backend subject key identifier 
+		 passed as argument. The parameters are comma separated.</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="margin-left: 7px; margin-right: 7px; font-family: 'Daimler CS', Calibri; 
+			 font-size: 10pt;">-importProductionCert<span style="mso-spacerun: yes;">&#160;</span>&#160;-package 
+		 BE0zIrC....wxTWNQ= </p></td>
+	</tr>
+	<tr style="height: 65px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="listCertificates" style="color: #000000; text-decoration: none; ">listCertificates</a></p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameter</span>: &lt;<span 
+		 lang="EN-US" xml:lang="EN-US">outputdir</span>&gt;</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Saves 
+		 into file the list of certificates for the current logged in user. 
+		 Custom directory can be specified, if not it will be saved in 
+		 the current directory.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;outputdir&gt; 
+		 = custom directory</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-listCertificates -outputdir 
+		 <span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+				 font-family: 'Daimler CS'; mso-fareast-font-family: 'Daimler CS'; 
+				 mso-bidi-font-family: 'Daimler CS'; mso-ansi-language: EN-US; 
+				 mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 44px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="listPerformanceAuditEntries" style="color: #000000; text-decoration: none; ">listPerformanceAuditEntries</a></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Saves 
+		 into file the list of performance audit entries. Saves in the 
+		 current directory.</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="margin-left: 7px; margin-right: 7px; font-size: 10pt;">&#160;</p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-<a 
+		 name="logout" style="color: #000000; text-decoration: none; ">logout</a></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Logs 
+		 out user.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="margin-left: 7px; margin-right: 7px; font-size: 10pt;">&#160;</p></td>
+	</tr>
+	<tr style="height: 60px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-outputdir 
+		 &lt;arg&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; text-align: justify; font-size: 10pt;">Specifies 
+		 the directory where the data file will be saved. It is used with 
+		 '-getCertByID, -getEnhDiagCert, -getTimeCert, -secureVariantCoding, 
+		 -getSecOCISCert'</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="margin-left: 7px; margin-right: 7px; font-size: 10pt; 
+					 font-family: 'Daimler CS', Calibri;">-outputdir C:/ProgramData/ZenZefi/output</p></td>
+	</tr>
+	<tr style="height: 44px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-package 
+		 &lt;package&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; text-align: justify; font-size: 10pt;">Specifies 
+		 a pair of encrypted Base64 pkcs package and encrypted backend 
+		 subject key identifier.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="margin-left: 7px; margin-right: 7px; font-size: 10pt;">-package 
+		 BH5oU5cslU0zMltS8y85EOy4cY....</p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-partNumberMapping 
+		 &lt;BSKI/PartNumber&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; text-align: justify; font-size: 10pt;">&#160;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="margin-left: 7px; margin-right: 7px; font-size: 10pt; 
+					 font-family: 'Daimler CS', Calibri;">-partNumberMapping 
+		 &#160;1234567891</p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-path 
+		 &lt;arg&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; text-align: justify; font-size: 10pt;">Specifies 
+		 the path where it will save the result of the command.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="margin-left: 7px; margin-right: 7px; font-size: 10pt;">-path 
+		 C:/ProgramData/ZenZefi/output</p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-proxyType 
+		 &lt;proxyType&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; text-align: justify; font-size: 10pt;">Specifies 
+		 the proxy type.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="margin-left: 7px; margin-right: 7px; font-size: 10pt;">-proxyType 
+		 DIRECT</p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-<a 
+		 name="randomNonce" style="color: #000000; text-decoration: none; ">randomNonce</a></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;"><span 
+		 style="font-family: 'Daimler CS', Calibri; font-size: 10pt;">Commands 
+		 for generating secure random nonce for tester.</span></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="margin-left: 7px; margin-right: 7px; font-size: 10pt;">&#160;</p></td>
+	</tr>
+	<tr style="height: 44px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-<a 
+		 name="restoreCert" style="color: #000000; text-decoration: none; ">restoreCert</a></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Restores 
+		 root and backend certificates&#160;(if these have been deleted 
+		 from the user certificate store) that were deleted from user certificate 
+		 store.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="margin-left: 7px; margin-right: 7px; font-size: 10pt;">&#160;</p></td>
+	</tr>
+	<tr style="height: 182px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="secureVariantCoding" style="color: #000000; text-decoration: none; ">secureVariantCoding</a> 
+		 &lt;backendCertSkid&gt; &lt;data&gt;</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span> &lt;vin&gt;, 
+		 &lt;ecu&gt;, &lt;<span lang="EN-US" xml:lang="EN-US">outputdir</span><span 
+		 style="mso-bidi-language: AR-SA;">&gt;</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 5px; 
+			 text-align: justify; font-size: 10pt;">Saves into file certificate 
+		 and signature based on given criteria, by retrieving the private 
+		 key that belongs to this certificate and signing the provided 
+		 data file (vin and ecu are optional). Custom directory can be 
+		 specified, if not it will be saved in the current directory. </p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;backendCertSkid&gt; 
+		 = subject key identifier &#160;of backend certificate</p>
+		<p style="mso-bidi-font-size: 10.0pt; font-size: 10pt; mso-ascii-theme-font: minor-latin; 
+			 mso-hansi-theme-font: minor-latin; mso-fareast-font-family: 'Arial Unicode MS'; 
+			 font-family: 'Daimler CS', Calibri; margin-left: 7px; margin-right: 7px; 
+			 text-align: justify;">&lt;data&gt; = path to data</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;vin&gt; 
+		 = vin of the regarding certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;ecu&gt; 
+		 = ecu of the regarding certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;outputdir&gt; 
+		 = custom directory</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-secureVariantCoding 
+		 51-82-B1-C2-D6-8C-F7-9A-52-EC-83-4A-1A-80-82-8F-0C-53-58-D4 <span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+		 font-family: 'Daimler CS'; mso-fareast-font-family: 'Daimler CS'; 
+		 mso-bidi-font-family: 'Daimler CS'; mso-ansi-language: EN-US; 
+		 mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">C:/folder/</span>data.txt 
+		 -vin v1 -ecu e1 -outputdir <span lang="EN-US" xml:lang="EN-US" 
+											 style="mso-bidi-font-size: 11.0pt; 
+											 font-family: 'Daimler CS'; 
+											 mso-fareast-font-family: 'Daimler CS'; 
+											 mso-bidi-font-family: 'Daimler CS'; 
+											 mso-ansi-language: EN-US; 
+											 mso-fareast-language: EN-US; 
+											 mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-serialNo 
+		 &lt;serialNo&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Specifies 
+		 the serial number.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-serialNo 02-00-00-01</p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-serverPort 
+		 &lt;arg&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Specifies 
+		 the port on which a command can be run.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-serverPort 61000 -logout</p></td>
+	</tr>
+	<tr style="height: 44px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-<a 
+		 name="setLogLevel" style="color: #000000; text-decoration: none; ">setLogLevel</a> 
+		 &#160;&lt;logLevel&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Sets 
+		 the log level for loggers. Only logs with configured log level 
+		 and the levels above will be displayed. Available levels: INFO, 
+		 FINE, FINER, FINEST</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-setLogLevel FINE</p></td>
+	</tr>
+	<tr style="height: 65px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-<a 
+		 name="setProxy" style="color: #000000; text-decoration: none; ">setProxy</a> 
+		 &lt;arg&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Sets 
+		 the proxy to be used in ZenZefi. The proxy type can be DIRECT, 
+		 MANUAL, NATIVE.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;arg&gt; 
+		 = proxy. It is formed by the hostname and the port.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 5px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-setProxy service.com 
+		 8080 -proxyType MANUAL</p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="vertical-align: top; border-left: solid #DDDDDD 1.0px; 
+			 border-right: solid #DDDDDD 1.0px; border-top: none; border-bottom: solid #DDDDDD 1.0px; 
+			 padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;"><p style="font-family: 'Daimler CS', Calibri; 
+															 margin-left: 7px; 
+															 margin-right: 7px; 
+															 font-size: 10pt; 
+															 text-decoration: none; ">-<a 
+		 name="shutdown" style="color: #000000; text-decoration: none; ">shutdown</a></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Shuts 
+		 down the application.</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #DDDDDD 1.0px; 
+			 border-top: none; border-bottom: solid #DDDDDD 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-size: 10pt; font-family: 'Daimler CS', Calibri; 
+			 margin-left: 7px; margin-right: 7px;">&#160;</p></td>
+	</tr>
+	<tr style="height: 108px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-<a 
+		 name="signatureCheck" style="color: #000000; text-decoration: none; ">signatureCheck</a> 
+		 &lt;message&gt; &lt;signature&gt; &lt;ecuCertificate&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Checks 
+		 signature for the provided message parameter and ECU Certificate.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;message&gt; 
+		 = path to message file</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;signature&gt; 
+		 = path to signature file</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;ecuCertificate&gt; 
+		 = path to ecu certificate</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-signatureCheck -signatureCheck 
+		 signatureCheck/data.txt <span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+										 font-family: 'Daimler CS'; mso-fareast-font-family: 'Daimler CS'; 
+										 mso-bidi-font-family: 'Daimler CS'; 
+										 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+										 mso-bidi-language: AR-SA;">C:/folder/</span>newSig.sig 
+		 <span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+				 font-family: 'Daimler CS'; mso-fareast-font-family: 'Daimler CS'; 
+				 mso-bidi-font-family: 'Daimler CS'; mso-ansi-language: EN-US; 
+				 mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">C:/folder</span>/BC_F223.crt</p></td>
+	</tr>
+	<tr style="height: 129px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">&#160;-<a 
+		 name="signaturesAllBackends" style="color: #000000; text-decoration: none; ">signaturesAllBackends</a> 
+		 &lt;data&gt;</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span><span lang="EN-US" 
+		 xml:lang="EN-US" style="mso-bidi-language: AR-SA;"> &lt;</span><span 
+		 lang="EN-US" xml:lang="EN-US">vin&gt;, &lt;ecu&gt;, </span><span 
+		 style="mso-bidi-language: AR-SA;">&lt;</span><span lang="EN-US" 
+															 xml:lang="EN-US">outputdir</span><span 
+		 style="mso-bidi-language: AR-SA;">&gt;</span></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Signs 
+		 coding data with variant coding user certificates found under 
+		 all available backends (vin and ecu are optional).</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;data&gt; 
+		 = data</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;vin&gt; 
+		 = vin of the regarding certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;ecu&gt; 
+		 = ecu of the regarding certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;outputdir&gt; 
+		 = custom directory</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-signaturesAllBackends 
+		 <span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; 
+				 font-family: 'Daimler CS'; mso-fareast-font-family: 'Daimler CS'; 
+				 mso-bidi-font-family: 'Daimler CS'; mso-ansi-language: EN-US; 
+				 mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">C:/folder</span>/data.txt 
+		 -vin WDD2231234A123456 -ecu ECU123 -outputdir <span lang="EN-US" 
+															 xml:lang="EN-US" 
+															 style="mso-bidi-font-size: 11.0pt; 
+															 font-family: 'Daimler CS'; 
+															 mso-fareast-font-family: 'Daimler CS'; 
+															 mso-bidi-font-family: 'Daimler CS'; 
+															 mso-ansi-language: EN-US; 
+															 mso-fareast-language: EN-US; 
+															 mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 129px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">&#160;-<a 
+		 name="signECU" style="color: #000000; text-decoration: none; ">signECU</a> 
+		 &lt;challenge&gt; &lt;backendCertSkid&gt; &lt;ecuID&gt;</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-weight: bold;">Optional parameters:</span><span lang="EN-US" 
+		 xml:lang="EN-US" style="mso-bidi-language: AR-SA;"> </span><span 
+		 style="mso-bidi-language: AR-SA;">&lt;</span><span lang="EN-US" 
+															 xml:lang="EN-US">outputdir</span><span 
+		 style="mso-bidi-language: AR-SA;">&gt;</span></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Signs 
+		 a challenge byte-array with the private key of an ECU certificate. 
+		 The serial number and outputdir are optional.</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;challenge&gt; 
+		 = path to ECUChallenge file</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;backendCertSkid&gt; 
+		 =subject key identifier &#160;of backend certificate</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">&lt;ecuID&gt; 
+		 = ECU ID</p>
+		<p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;"><span 
+		 style="mso-bidi-language: AR-SA;">&lt;</span><span lang="EN-US" 
+															 xml:lang="EN-US">outputdir</span><span 
+		 style="mso-bidi-language: AR-SA;">&gt; = </span>custom directory</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-signECU <span lang="EN-US" 
+		 xml:lang="EN-US" style="mso-bidi-font-size: 11.0pt; font-family: 'Daimler CS'; 
+		 mso-fareast-font-family: 'Daimler CS'; mso-bidi-font-family: 'Daimler CS'; 
+		 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">C:/folder</span>/data.txt 
+		 51-82-B1-C2-D6-8C-F7-9A-52-EC-83-4A-1A-80-82-8F-0C-53-58-D4 ABRL229 
+		 -serialNo 02-00-00-01 -outputdir <span lang="EN-US" xml:lang="EN-US" 
+												 style="mso-bidi-font-size: 11.0pt; 
+												 font-family: 'Daimler CS'; 
+												 mso-fareast-font-family: 'Daimler CS'; 
+												 mso-bidi-font-family: 'Daimler CS'; 
+												 mso-ansi-language: EN-US; 
+												 mso-fareast-language: EN-US; 
+												 mso-bidi-language: AR-SA;">C:/folder</span></p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-<a 
+		 name="systemsPublicKey" style="color: #000000; text-decoration: none; ">systemsPublicKey</a></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Gets 
+		 systems public key.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">&#160;</p></td>
+	</tr>
+	<tr style="height: 18px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-uniqueEcuId 
+		 &lt;uniqueEcuId&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Specifies 
+		 the unique ECU ID. It is used with the -getReplacementPackage 
+		 command.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-uniqueEcuId ABR123</p></td>
+	</tr>
+	<tr style="height: 48px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-family: 'Daimler CS', Calibri; font-size: 10pt; text-decoration: none; ">-userRole 
+		 &lt;arg&gt;</span></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Optional 
+		 command that specifies the user role numeric value. It is used 
+		 only with commands: '-getDiagCert,-checkActiveDiagCert'. Values: 
+		 1 Supplier, 2 Development ENHANCED, 3 Production, 4 After-Sales 
+		 ENHANCED, 5 After-SalesSTANDARD, 6 After-Sales BASIC, 7 Internal 
+		 Diagnostic Test Tool, 8 ePTI Test Tool. The order of the values 
+		 can beconfigured from user settings. This is the default order.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; "><span 
+		 style="font-family: 'Daimler CS', Calibri; font-size: 10pt; text-decoration: none; ">-userRole 
+		 1</span></p></td>
+	</tr>
+	<tr style="height: 48px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-validateCertificates 
+		 &lt;state&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Enable/Disabled 
+		 extended validation</p>
+		<span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+				 font-family: 'Daimler CS'; mso-fareast-font-family: 'Daimler CS'; 
+				 mso-bidi-font-family: 'Daimler CS'; mso-ansi-language: EN-US; 
+				 mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">&#160;&#160;&lt;state&gt; 
+		 = “ON” or “OFF”</span></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt;">-validateCertificates 
+		 ON</p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-<a 
+		 name="version" style="color: #000000; text-decoration: none; ">version</a></p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+			 margin-right: 7px; text-align: justify; font-size: 10pt;">Get 
+		 ZenZefi version.</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 style="margin-left: 7px; margin-right: 7px; font-size: 10pt;">&#160;</p></td>
+	</tr>
+	<tr style="height: 28px;">
+		<td style="border-left: solid 1.0px #DDDDDD; border-right: solid 1.0px #DDDDDD; 
+			 border-bottom: solid 1.0px #DDDDDD; vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; font-size: 10pt; text-decoration: none; ">-vin 
+		 &lt;vin&gt;</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 1.5pt 1.5pt 1.0pt 1.5pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="font-family: 'Daimler CS', Calibri; margin-left: 7px; 
+					 margin-right: 7px; text-align: justify; font-size: 10pt;">Optional 
+		 command that specifies the targetVIN. It is used only with commands: 
+		 '-createCertSignReq',-checkActiveDiagCert, -getDiagCert, -getEnhDiagCert, 
+		 -secureVariantCoding</p></td>
+		<td style="border-right: solid 1.0px #DDDDDD; border-bottom: solid 1.0px #DDDDDD; 
+			 vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 "><p style="margin-left: 7px; margin-right: 7px; font-size: 10pt; 
+					 font-family: 'Daimler CS', Calibri;">-vin WDD2231234A123456</p></td>
+	</tr>
+</table>
+<p style="font-size: 10pt; font-style: italic; font-family: 'Daimler CS', Calibri; 
+	 text-align: justify;"><i>Table</i> 9 <i>Description of commands for 
+ CLI</i></p>
+</body>
+</html>

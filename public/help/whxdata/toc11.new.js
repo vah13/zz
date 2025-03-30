@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Validate certificate","url":"Function_description.htm#Validate_certificatebc-20"},{"type":"item","name":"Delete certificates automatically","url":"Function_description.htm#Delete_certificates_automaticallybc-21"},{"type":"item","name":"Automatic certificate selection","url":"Function_description.htm#Automatic_certificate_selectionbc-22"},{"type":"item","name":"Autologout","url":"Function_description.htm#Autologoutbc-23"},{"type":"item","name":"Priority","url":"Function_description.htm#Prioritybc-24"},{"type":"item","name":"Proxy","url":"Function_description.htm#Proxybc-25"},{"type":"item","name":"User accounts","url":"Function_description.htm#User_accountsbc-26"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();
