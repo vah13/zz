@@ -1,4 +1,0 @@
-(function() {
-var toc =  [{"type":"book","name":"ZenZefi cannot be installed or started","key":"toc13","url":"ZenZefi_Troubleshooting.htm#ZenZefi_cannot_be_installed_or_startedbc-1"},{"type":"book","name":"How to start ZenZefi","key":"toc14","url":"ZenZefi_Troubleshooting.htm#How_to_start_ZenZefibc-5"},{"type":"item","name":"How to stop ZenZefi via Windows Task manager","url":"ZenZefi_Troubleshooting.htm#How_to_stop_ZenZefi_-__Windows_Task_managerbc-8"},{"type":"item","name":"Install the ZenZefi security certificate","url":"ZenZefi_Troubleshooting.htm#Install_the_ZenZefi_security_certificatebc-9"},{"type":"item","name":"ZenZefi upgrade process fails","url":"ZenZefi_Troubleshooting.htm#ZenZefi_upgrade_process_failsbc-10"},{"type":"item","name":"Error occurred on resolving permissions step","url":"ZenZefi_Troubleshooting.htm#Error_occurred_on_resolving_permissions_stepbc-11"}];
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
-})();

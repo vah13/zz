@@ -1,4 +1,0 @@
-(function() {
-var toc =  [{"type":"item","name":"Login for Daimler employees and Suppliers","url":"Function_description.htm#Login_for_Daimler_employeesbc-3"},{"type":"item","name":"Offline login","url":"Function_description.htm#Local_loginbc-4"},{"type":"item","name":"Login for After-Sales","url":"Function_description.htm#3.2.4_Login_for_After-Salesbc-5"},{"type":"item","name":"\"Forgot my password\" button","url":"Function_description.htm#3.3.5_Forgot_my_password_buttonbc-6"},{"type":"item","name":"Remaining login time","url":"Function_description.htm#3.3.6_Remaining_login_time_is_displayed_in_ZenZefi_UIbc-7"},{"type":"item","name":"Logout","url":"Function_description.htm#Logoutbc-8"}];
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
-})();

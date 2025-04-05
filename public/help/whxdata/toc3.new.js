@@ -1,4 +1,0 @@
-(function() {
-var toc =  [{"type":"item","name":"Hardware","url":"Introduction.htm#_Toc366633bc-10"},{"type":"item","name":"Operating systems","url":"Introduction.htm#_Toc366634bc-11"},{"type":"item","name":"Installed software","url":"Introduction.htm#_Toc366635bc-12"},{"type":"item","name":"Valid time of operating system","url":"Introduction.htm#_Toc366636bc-13"},{"type":"item","name":"Browser to display the ZenZefi UI","url":"Introduction.htm#_Toc366637bc-14"},{"type":"item","name":"Firewall settings","url":"Introduction.htm#_Toc366638bc-15"}];
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
-})();

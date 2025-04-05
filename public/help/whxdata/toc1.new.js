@@ -1,4 +1,0 @@
-(function() {
-var toc =  [{"type":"item","name":"What is ZenZefi","url":"Introduction.htm#What_is_ZenZefi_bc-1"},{"type":"book","name":"General information","key":"toc2","url":"Introduction.htm#General_informationbc-2"},{"type":"item","name":"ZenZefi administrator and user: role definition","url":"Introduction.htm#ZenZefi_administrator_and_user_role_definitionbc-6"},{"type":"item","name":"Additional documents","url":"Introduction.htm#Additional_documentsbc-7"},{"type":"item","name":"System requirements","url":"Introduction.htm#System_requirementsbc-8"},{"type":"book","name":"Minimum system requirements","key":"toc3","url":"Introduction.htm#_Toc442573bc-9"}];
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
-})();
